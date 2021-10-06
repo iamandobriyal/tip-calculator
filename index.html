@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitter</title>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="text">
+                <p>SPLITTER</p>
+            </div>
+
+            <div class="row1">
+                <p>Bill</p>
+                <div class="box1">
+                    <p1>$</p1>
+                    <input autocomplete="off" type="text" id="in1" placeholder="0" maxlength="10">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="select">
+                    <p>Select Tip %</p>
+                    <div class="buttons">
+                        <button type="button" id="5">5%</button>
+                        <button type="button" id="10">10%</button>
+                        <button type="button" id="15">15%</button>
+                        <button type="button" id="25">25%</button>
+                        <button type="button" id="50">50%</button>
+                        <button type="button" id="100">100%</button>
+                    </div>
+                    <span id="textview"><p2></p2></span>
+                </div>
+            </div>
+            <div class="row3">
+                <p3>Number of People</p3>
+                <div class="box2">
+                    <img src="user.png" height="18px" width="18px" alt="">
+                    <input type="text" id="in2" placeholder="0" maxlength="2">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="output1">
+                <div class="text">
+                    <p>Tip Amount</p>
+                    <p2>/ person</p2>
+                </div>
+                <div class="input-box">
+                    <p3>$</p3>
+                    <input type="text" id="in3" placeholder="0.00">
+                </div>
+            </div>
+            <div class="output2">
+                <div class="text">
+                    <p>Total</p>
+                    <p2>/ person</p2>
+                </div>
+                <div class="input-box">
+                    <p3>$</p3>
+                    <input type="number" id="in4" placeholder="0.00">
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
