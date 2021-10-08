@@ -76,7 +76,6 @@ body{
     width: 80%;
     height: 100px;
     display: flex;
-    margin-top: 5%;
 }
 .top .row1 input::placeholder{
     color: silver;
@@ -176,14 +175,14 @@ span{
     width: 40%;
     align-items: center;
     color: #35c3b2;
-    font-size: 35px;
+    font-size: 30px;
 }
 .bottom .output1 .input-box input{
     border: none;
     width: 120px;
     background: transparent;
     color: #35c3b2;
-    font-size: 40px;
+    font-size: 28px;
     pointer-events: none;
     font-family: "Space Mono", monospace;
 }
@@ -213,14 +212,14 @@ span{
     width: 40%;
     align-items: center;
     color: #35c3b2;
-    font-size: 35px;
+    font-size: 30px;
 }
 .bottom .output2 .input-box input{
     border: none;
     width: 120px;
     background: transparent;
     color: #35c3b2;
-    font-size: 40px;
+    font-size: 28px;
     pointer-events: none;
     font-family: "Space Mono", monospace;
 }
